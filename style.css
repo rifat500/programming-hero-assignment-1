@@ -2,51 +2,192 @@ body{
     margin: 0px;
     padding: 0px;
     border: 0px;
-}
-section{
-    margin-bottom: 50px;
-    text-align: center;
-    width: 50%;
-    margin: 20px auto;
     
 }
-#section-top{
+body h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px ;
+    margin: 0px;
+    border: 0px;
+}
+section{
+    margin: 0px auto 80px;
+    text-align: center;
+    width: 50%;
+    padding: 0px;
+     
+}
+
+/* ............... section top ..............*/
+
+
+
+#section-top{ 
     background-image: url(donation7.jpg);
     background-repeat: no-repeat;
-    height: 500px;
+    height: 400px;
     width: 100%;
+    margin-top: 0px;
     color: aliceblue;
 }
 #section-top-h1{
     text-align: center;
-    
+    padding: 90px 0px 0px ;
     font-size: 40px;
+    width: 600px;
+    margin: 0px auto;
 }
 #section-top-p{
     text-align: center;
     font-size: 18px;
+    padding: 0px 0px 40px;
+    width: 450px;
+    margin: 0px auto;
     
 }
-#section-top-a{
-    text-align: center;
-}
+
 a{
     text-decoration: none;
     color: aliceblue;
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    height: 30px;
-    width: 70px;
     background-color: orangered;
-    padding: 20px;
+    padding: 20px 40px;
     
+}
+
+/* ................... donate today .................. */
+
+#donate_today{
+    width: 74%;
+}
+#taka{
+    display: flex;
+    
+    width: 50%;
+    margin: 10px auto;
+
+}
+#taka h2{
+    padding: 20px ;
+    margin: 5px ;
+
+}
+.gray{
+    background-color: lightgray;
+}
+.red{
+    background-color: rgb(245, 188, 188);
+    border: 1px solid red;
+}
+#donation_amount{
+    padding: 10px;
+    width: 600px;
+    margin: 1px auto;
+        
+}
+#donation_amount_input{
+    padding-left: 55px ;
+    margin: 2px auto;
+    border: none;
+
+}
+#donation_amount button{
+    text-decoration: center;
+    color: aliceblue;
+    font-size: 14px;
+    height: 40px;
+    width: 150px;
+    background-color: orangered;
+    padding: px;
+    border: none;
+    
+}
+
+/* ................ donate plan ...............*/
+
+#donate_plan{
+    width: 70%;
+}
+
+.text{
+    font-size: 15px;
+}
+.text1{
+    padding: 0px 1px 15px;
+    margin: 0px auto;
+    border: 0px;
+    font-size: 15px;
+    width: 300px;
+    
+    
+}
+#donate_plan h2,h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+
+}
+#donate_plan_2{
+    display: flex;
+    padding: 3px 5px;
+}
+.donate_plan_3{
+    width: 300px;
+    padding: 30px 15px;
+    margin: 5px;
+    text-align: left;
+    border: 1px solid black;
+    
+
+}
+.donate_plan_3 img{
+    height: 40px;
+    width: 40px;
+}
+.donate_plan_3 p{
+    font-size: 13px;
+}
+.plan_color_1{
+    background-color: #7fdbff;
+}
+.plan_color_2{
+    background-color: #ffbcbc;
+}
+.plan_color_3{
+    background-color: rgb(255, 255, 178);
+}
+
+/* ............get my update ................ */
+
+h1.update{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+p.update{
+    padding: 0px 1px 10px;
+    font-size: 15px;
+    border: 0px;
 }
 #newsletter{
-    
+    padding: 40px 70px;
+    background-color: rgb(255, 246, 152);
+    border: 0px;
+}
+#newsletter_email{
+    margin: -2px;
+    padding: 10px 20px ;
+    border: 0px;
+    background-color: lightgray;
 }
 #newsletter_subscribe_btn{
-
-
+    margin: -2px;
+    padding: 10px 20px;
+    border: 0px;
+    background-color: tomato;
+    color: white;
+/* .................. footer .............*/
 }
 footer{
     background-color: black;
