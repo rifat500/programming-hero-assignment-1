@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+section{
+    margin-bottom: 50px;
+    text-align: center;
+    width: 50%;
+    margin: 20px auto;
+    
+}
+#section-top{
+    background-image: url(donation7.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    color: aliceblue;
+}
+#section-top-h1{
+    text-align: center;
+    
+    font-size: 40px;
+}
+#section-top-p{
+    text-align: center;
+    font-size: 18px;
+    
+}
+#section-top-a{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 30px;
+    width: 70px;
+    background-color: orangered;
+    padding: 20px;
+    
+}
+#newsletter{
+    
+}
+#newsletter_subscribe_btn{
+
+
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 120px;
+}
+.humble{
+    font-family: 'Lobster', cursive;
+    font-size: 25px ;
+    color: red;
+    padding-top: 20px;
+
+}
